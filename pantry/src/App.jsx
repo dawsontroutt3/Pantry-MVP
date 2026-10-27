@@ -10,6 +10,10 @@ function App() {
         setNewItem("")
     }
 
+    function handleRemove(itemToRemove) {
+        setPantryItems(pantryItems.filter((item) => item !== itemToRemove));
+    }
+
     return (
         <div>
             <h1>Pantry</h1>
@@ -21,7 +25,10 @@ function App() {
             <button onClick={handleAdd}>Add</button>
             <ul>
                 {pantryItems.map((item) => (
-                    <li key={item}>{item}</li>
+                    <li key={item}>
+                        {item}
+                        <button onClick={() => handleRemove(item)}>Remove</button>
+                    </li>
                 ))}
             </ul>
         </div>

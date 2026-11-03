@@ -1,2 +1,21 @@
-*Pantry* is a personal passion project. At its core, it is to help users have a better idea of what types and amounts of food they currently have in their home. This allows for more optimal grocery and meal planning for the user. 
-It uses React and Javascript.
+# Pantry
+
+A personal project to help people see what food they have at home, and how much, so they can plan groceries and meals more efficiently.
+
+## Status
+
+Early development.
+
+**Works now**
+- Add and remove pantry items
+- Your list is saved in the browser between visits
+
+**Planned**
+- Quantities and units for each item
+- Expiration dates
+- Grocery list based on what's running low
+- Meal suggestions from what's on hand
+
+## Built with
+
+React, JavaScript, Vite
